@@ -16,7 +16,8 @@ This is my second webpage which is done using the repository in GitHub. This web
 1. HTML ([https://html.com/](https://html.com/ "Html")): HTML is the standard language for creating the web application and web pages.
 
 ## Recommended Resources
-JQuery ([https://jquery.com/](https://jquery.com/ "jquery")): JQuery is javascript 
+JQuery ([https://jquery.com/](https://jquery.com/ "jquery")): JQuery is javascript library which is used to simplify HTML, event handling and CSS.
+CSS ([https://www.w3schools.com/css/](https://www.w3schools.com/css/)): Cascading Style Sheets is a language used for presenting the document written in Markup language like HTML.
 
 ## Contributors
 - PRADEEPKUMAR THEEGALA, MASTERS IN APPLIED COMPUTER SCIENCE
