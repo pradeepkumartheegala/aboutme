@@ -5,7 +5,7 @@
 - [Hosted page](https://pradeepkumartheegala.github.io/aboutme/ "My Published Page")
 
 ## About
-This is my second webpage which is done using the repository in GitHub. This webpage gives the basics things like creating the link and tools which I used for creating this webpage and this repository helps me to learn the basics of the creating the webpage in cloud or local machine using the push and pull.
+This repo is used for developing the basic operation required for developing the web page and this webpage gives the basics things like creating the link and tools which I used for creating this webpage.
 
 ## Recommended Tools
 1. Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/ "visual studio editor")): This is editor which is developed by Microsoft that is used for source code. This contains debuggers, Git controls and many which helps to create web page.
