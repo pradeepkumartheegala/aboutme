@@ -1,7 +1,7 @@
 # aboutme
 ## Repository Links
--[Source repository](https://github.com/pradeepkumartheegala/aboutme "My GitHub Page")
--[Hosted page](https://pradeepkumartheegala.github.io/aboutme/ "My Published Page")
+- [Source repository](https://github.com/pradeepkumartheegala/aboutme "My GitHub Page")
+- [Hosted page](https://pradeepkumartheegala.github.io/aboutme/ "My Published Page")
 ## About
 This is my second webpage which is done using the repository in GitHub. This webpage gives the basics things like creating the link and tools which I used for creating this webpage and this repository helps me to learn the basics of the creating the webpage in cloud or local machine using the push and pull.
 ## Recommended Tools
