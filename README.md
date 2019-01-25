@@ -15,11 +15,9 @@ This is my second webpage which is done using the repository in GitHub. This web
 1. HTML ([https://html.com/](https://html.com/ "Html")): HTML is the standard language for creating the web application and web pages.
 
 ## Recommended Resources
-JQuery ([https://jquery.com/](https://jquery.com/ "jquery")): JQuery is javascript library which is used to simplify HTML, event handling and CSS.
-
-CSS ([https://www.w3schools.com/css/](https://www.w3schools.com/css/ "CSS")): Cascading Style Sheets is a language used for presenting the document written in Markup language like HTML.
-
-Markdown ([https://www.markdownguide.org/](https://www.markdownguide.org/ "MarkDown")): Markdown is lightweight markup language. This language supports the HTML.
+1. JQuery ([https://jquery.com/](https://jquery.com/ "jquery")): JQuery is javascript library which is used to simplify HTML, event handling and CSS.
+1. CSS ([https://www.w3schools.com/css/](https://www.w3schools.com/css/ "CSS")): Cascading Style Sheets is a language used for presenting the document written in Markup language like HTML.
+1. Markdown ([https://www.markdownguide.org/](https://www.markdownguide.org/ "MarkDown")): Markdown is lightweight markup language. This language supports the HTML.
 ## Contributors
 - PRADEEPKUMAR THEEGALA, MASTERS IN APPLIED COMPUTER SCIENCE
 
