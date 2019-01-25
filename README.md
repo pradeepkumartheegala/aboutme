@@ -15,4 +15,4 @@ This is my second webpage which is done using the repository in GitHub. This web
 JQuery ([https://jquery.com/](https://jquery.com/ "jquery")): JQuery is javascript 
 ## Contributors
 - PRADEEPKUMAR THEEGALA, MASTERS IN APPLIED COMPUTER SCIENCE
-![IMG_IMAGE](https://github.com/pradeepkumartheegala/aboutme/blob/master/img.jpg "img_image")
+![IMG_IMAGE](https://github.com/pradeepkumartheegala/aboutme/raw/master/img.jpg "img_image")
