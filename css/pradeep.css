@@ -8,6 +8,12 @@ body{
     grid-template-columns: 75% 25%;
 
 }
+#red{
+    color:red;
+}
+#row{
+    grid-template-row: 1fr 1fr 1fr
+}
 
 section{
     background-color: antiquewhite;
