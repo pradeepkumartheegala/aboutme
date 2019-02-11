@@ -1,19 +1,23 @@
-body{
-    min-height: 50em;
-    margin-top: 4em;
-}
-
 .grid-main{
     display: grid;
     grid-template-columns: 75% 25%;
 
 }
+.body-dimension{
+    min-height: 50em;
+    margin-top: 4em;
+}
 #red{
     color:red;
 }
-#row{
-    grid-template-row: 1fr 1fr 1fr
+#blue{
+    color: blue;
 }
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 section{
     background-color: antiquewhite;
@@ -28,11 +32,7 @@ h1{
     text-align: center;
     background-color: cornsilk;
   }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   
 aside{
     border-style: solid;
