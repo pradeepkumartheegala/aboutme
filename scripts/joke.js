@@ -1,4 +1,4 @@
-console.log('INFO: Starting to read calc.js');
+console.log('Reading Script');
 
 console.log('INFO: Getting access to elements');
 
