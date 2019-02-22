@@ -5,6 +5,9 @@
 #red{
     color:red;
 }
+.center{
+    align-content: center;
+}
 #blue{
     color: blue;
 }

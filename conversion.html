@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -23,8 +23,8 @@
     </header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Aboutme</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -38,6 +38,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="conversion.html">Length conversion</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qunit.html">Qunit test</a>
+                </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -45,19 +48,32 @@
             </form>
         </div>
     </nav>
-    <h3>Length Conversion</h3>
+    <h3 class="center">Length Conversion</h3>
     <p>Enter the value in feet to convert the value to meter</p>
-    <label>
-        Feet
-    </label>
-    <input type="number" oninput="length(this.value)" onchange="lenght(this.value)">
-    <br>
-    Meters: <span id="o"></span>
 
-    <script>
-        function lenght(num) {
-            document.getElementById("o").innerHTML = num / 3.2808;
-        }
+    <p> Enter the length in Feet:
+        <input id="number" type="number">
+    </p>
+
+    <br>
+    <button id="submit" class="btn btn-primary">Converting to Meters</button>
+    <p id="result"></p>
+    <br>
+    <h4>Stored previous data:</h4>
+    <p id="local"></p>
+    <button id="history" class="btn btn-primary">History</button>
+    <button id="clear" class="btn btn-primary">Clear History</button>
+<br>
+<br>
+<br>
+<h6>Calling Webservice API using ajax and jquery</h6>
+
+<p id="quote">
+    Double click for a random Ron Swanson quote!
+</p>
+
+<script src="./scripts/joke.js"></script>
+    <script src="./scripts/pradeep.js">
     </script>
 </body>
 <hr>
