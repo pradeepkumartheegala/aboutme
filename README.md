@@ -4,6 +4,13 @@
 - [Source repository](https://github.com/pradeepkumartheegala/aboutme "My GitHub Page")
 - [Hosted page](https://pradeepkumartheegala.github.io/aboutme/ "My Published Page")
 
+## Used Webpages:
+- Tables Generator[https://www.tablesgenerator.com/html_tables](https://www.tablesgenerator.com/html_tables, table)
+- BootStrap 4[https://getbootstrap.com/docs/4.0/getting-started/](https://getbootstrap.com/docs/4.0/getting-started/introduction/, bootstrap)
+- w3schools.com[https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp, w3schools)
+- Ron Swanson quotes API[https://ron-swanson-quotes.herokuapp.com/v2/quotes](https://ron-swanson-quotes.herokuapp.com/v2/quotes, api)
+
+
 ## About
 This repo is used for developing the basic operation required for developing the web page and this webpage gives the basics things like creating the link and tools which I used for creating this webpage.
 

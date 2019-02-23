@@ -29,7 +29,7 @@ function getQuote() {
         req.ontimeout = function () {
             reject('Error - timed out: ' + req.time)
         }
-        req.open("GET", "http://api.icndb.com/jokes/random", true);
+        req.open("GET", "https://ron-swanson-quotes.herokuapp.com/v2/quotes", true);
         req.send();
     })
 }
