@@ -1,4 +1,5 @@
-
+console.log('Reading the script testing.js')
+console.log('_________________________________________________________')
 function convertingLengthToMeters(lengthInFeet) {
     const lengthInMeters = lengthInFeet / 3.2808;
     const max = 10000000000000000;
@@ -14,6 +15,7 @@ function convertingLengthToMeters(lengthInFeet) {
         return lengthInMeters;
     }
 }
+console.log('Defined Function for testing '+convertingLengthToMeters)
 
 QUnit.test("Testing", function (assert) {
     assert.equal(convertingLengthToMeters(0), 0, "Length To Meters == 0");
@@ -23,3 +25,5 @@ QUnit.test("Testing", function (assert) {
     assert.equal(convertingLengthToMeters(-1), 0, "checking for large inputs - returns 0");
     assert.equal(convertingLengthToMeters(200), 60.960741282613995, "Length To Meters == 60.960741282613995");
 });
+console.log('_________________________________________________________')
+console.log('Done Testing the function for user inputs')
