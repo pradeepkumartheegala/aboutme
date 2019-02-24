@@ -1,17 +1,16 @@
-console.log('Reading Script');
+console.log('Starting Reading the Script joke.js');
 
-console.log('INFO: Getting access to elements');
+console.log('Getting access to elements');
 
-const quoteElement = document.getElementById("quote");
+const jokeElement = document.getElementById("quote");
 
 
-console.log('INFO: Configuring event handlers');
+console.log('Configuring event handlers');
 
-quoteElement.addEventListener('dblclick', function () { quoteHandler() });
+jokeElement.addEventListener('dblclick', function () { handler() });
 
-console.log('INFO: Declaring functions');
+console.log('Declaring functions...............');
 
-//based off Professor Case's example in the slides
 function getQuote() {
     return new Promise(function (resolve, reject) {
         const req = new XMLHttpRequest();
@@ -34,11 +33,11 @@ function getQuote() {
     })
 }
 
-async function quoteHandler() {
+async function handler() {
     const fact = await getQuote();
     console.log(fact);
-    quoteElement.innerHTML = fact;
+    jokeElement.innerHTML = fact;
 
 }
 
-console.log('INFO: Done loading, waiting for an event'); 
+console.log('Done......Waiting for Events.........'); 
