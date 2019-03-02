@@ -24,6 +24,7 @@ QUnit.test("Testing", function (assert) {
     assert.equal(convertingLengthToMeters(100000000007884700), 0, "checking for boundary ");
     assert.equal(convertingLengthToMeters(-1), 0, "checking for large inputs - returns 0");
     assert.equal(convertingLengthToMeters(200), 60.960741282613995, "Length To Meters == 60.960741282613995");
+    assert.equal(convertingLengthToMeters(-200), 1, "Length Will not be in negative");
 });
 console.log('_________________________________________________________')
 console.log('Done Testing the function for user inputs')
