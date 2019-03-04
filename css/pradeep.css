@@ -1,22 +1,38 @@
-.body-dimension{
+/* body tag styles */
+#body-dimension {
     min-height: 50em;
     margin-top: 4em;
+    overflow-x: hidden;
 }
+
+/* Red text for section 1 h2 tag */
 #red{
     color:red;
 }
-.center{
-    align-content: center;
-}
+
+/* Blue text for section 1 paragraph */
 #blue{
     color: blue;
 }
+
+/* Setting the margin for text above the video */
+#set{
+      margin: 1em;  
+ }
+
+/* Center class to make every thing in center */
+.center{
+    align-content: center;
+}
+
+/* adding line after and before the image and setting margin to auto */
 .img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
+/* Adding styles for all section tags */
 section{
     background-color: antiquewhite;
     border-style: dotted;
@@ -24,6 +40,7 @@ section{
     padding: 2em;
  }
 
+/* Adding styles for all h1 tags */
 h1{
     border-style: inset;
     padding: 0.5em;
@@ -31,17 +48,15 @@ h1{
     background-color: cornsilk;
   }
 
-  
+/* Adding styles for aside tag */
 aside{
     border-style: solid;
     padding: 1em;
     margin: 1em;
     background-color: azure;
  }
- .set{
-  
-    margin: 1em;  
- }
+ 
+ /* Table styles which are taken from Table generator */
  .tg  {border-collapse:collapse;border-spacing:0;}
  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
