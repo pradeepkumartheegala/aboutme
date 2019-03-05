@@ -1,8 +1,7 @@
-/* body tag styles */
-#body-dimension {
-    min-height: 50em;
+/* header tag styles */
+#header-dimension {
     margin-top: 4em;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* Red text for section 1 h2 tag */
